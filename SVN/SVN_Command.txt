@@ -1,0 +1,7 @@
+sc create "svnservice" binpath= "C:\Program Files\Subversion\bin\svnserve.exe --service --listen-port Port --listen-host IP -r D:\GSS_SVN" displayname= "SVN Service" depend= Tcpip start= auto
+
+
+sc delete 
+
+
+svnadmin create D:\GSS_SVN\Sorce Code
